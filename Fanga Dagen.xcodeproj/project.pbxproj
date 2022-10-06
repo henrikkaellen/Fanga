@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29F21EC1B89496710028A8C8 /* Pods_Fanga_Dagen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839736609C5B3532952826A3 /* Pods_Fanga_Dagen.framework */; };
+		FB190F102573240000E98457 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB190F0F2573240000E98457 /* ChallengeViewController.swift */; };
+		FB190F1425742DF900E98457 /* AppBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB190F1325742DF900E98457 /* AppBrain.swift */; };
+		FB70A257256DCE750038B325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70A256256DCE750038B325 /* AppDelegate.swift */; };
+		FB70A259256DCE750038B325 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70A258256DCE750038B325 /* SceneDelegate.swift */; };
+		FB70A25B256DCE750038B325 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70A25A256DCE750038B325 /* LoginViewController.swift */; };
+		FB70A25E256DCE750038B325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB70A25C256DCE750038B325 /* Main.storyboard */; };
+		FB70A263256DCE7B0038B325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB70A261256DCE7B0038B325 /* LaunchScreen.storyboard */; };
+		FB70A274256F20140038B325 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70A273256F20140038B325 /* DescriptionViewController.swift */; };
+		FBF4470C25708C2E0012CF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF4470B25708C2E0012CF58 /* Assets.xcassets */; };
+		FBF447102570C4C40012CF58 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF4470F2570C4C40012CF58 /* InterestsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C56C853F408D8C5DF1719E0 /* Pods-Fanga Dagen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanga Dagen.debug.xcconfig"; path = "Target Support Files/Pods-Fanga Dagen/Pods-Fanga Dagen.debug.xcconfig"; sourceTree = "<group>"; };
+		6AFF2A69C6F9333D7919F479 /* Pods-Fanga Dagen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fanga Dagen.release.xcconfig"; path = "Target Support Files/Pods-Fanga Dagen/Pods-Fanga Dagen.release.xcconfig"; sourceTree = "<group>"; };
+		839736609C5B3532952826A3 /* Pods_Fanga_Dagen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fanga_Dagen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB190F0F2573240000E98457 /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChallengeViewController.swift; path = "Fanga Dagen/View/ChallengeViewController.swift"; sourceTree = SOURCE_ROOT; };
+		FB190F1325742DF900E98457 /* AppBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBrain.swift; sourceTree = "<group>"; };
+		FB70A253256DCE750038B325 /* Fanga Dagen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fanga Dagen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB70A256256DCE750038B325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB70A258256DCE750038B325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB70A25A256DCE750038B325 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB70A25D256DCE750038B325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB70A262256DCE7B0038B325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB70A264256DCE7B0038B325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB70A273256F20140038B325 /* DescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		FBF4470B25708C2E0012CF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Fanga Dagen/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		FBF4470F2570C4C40012CF58 /* InterestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB70A250256DCE750038B325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F21EC1B89496710028A8C8 /* Pods_Fanga_Dagen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		785A3CAE1A1BE1FA28147C66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				839736609C5B3532952826A3 /* Pods_Fanga_Dagen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC33309822179639FAE28FEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C56C853F408D8C5DF1719E0 /* Pods-Fanga Dagen.debug.xcconfig */,
+				6AFF2A69C6F9333D7919F479 /* Pods-Fanga Dagen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB190F1225742DCF00E98457 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB190F1325742DF900E98457 /* AppBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB70A24A256DCE750038B325 = {
+			isa = PBXGroup;
+			children = (
+				FB70A255256DCE750038B325 /* Fanga Dagen */,
+				FB70A254256DCE750038B325 /* Products */,
+				CC33309822179639FAE28FEB /* Pods */,
+				785A3CAE1A1BE1FA28147C66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB70A254256DCE750038B325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB70A253256DCE750038B325 /* Fanga Dagen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB70A255256DCE750038B325 /* Fanga Dagen */ = {
+			isa = PBXGroup;
+			children = (
+				FB70A256256DCE750038B325 /* AppDelegate.swift */,
+				FB70A258256DCE750038B325 /* SceneDelegate.swift */,
+				FB190F1225742DCF00E98457 /* Model */,
+				FB70A26D256F1B3F0038B325 /* View */,
+				FB70A26E256F1B6B0038B325 /* Controller */,
+				FB70A261256DCE7B0038B325 /* LaunchScreen.storyboard */,
+				FBF4470B25708C2E0012CF58 /* Assets.xcassets */,
+				FB70A264256DCE7B0038B325 /* Info.plist */,
+			);
+			path = "Fanga Dagen";
+			sourceTree = "<group>";
+		};
+		FB70A26D256F1B3F0038B325 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB70A25C256DCE750038B325 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB70A26E256F1B6B0038B325 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB190F0F2573240000E98457 /* ChallengeViewController.swift */,
+				FB70A25A256DCE750038B325 /* LoginViewController.swift */,
+				FB70A273256F20140038B325 /* DescriptionViewController.swift */,
+				FBF4470F2570C4C40012CF58 /* InterestsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB70A252256DCE750038B325 /* Fanga Dagen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70A267256DCE7B0038B325 /* Build configuration list for PBXNativeTarget "Fanga Dagen" */;
+			buildPhases = (
+				13060E299F58EE977FB7137D /* [CP] Check Pods Manifest.lock */,
+				FB70A24F256DCE750038B325 /* Sources */,
+				FB70A250256DCE750038B325 /* Frameworks */,
+				FB70A251256DCE750038B325 /* Resources */,
+				9AFB9996FC3913A2F3A489FA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fanga Dagen";
+			productName = "Fanga Dagen";
+			productReference = FB70A253256DCE750038B325 /* Fanga Dagen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB70A24B256DCE750038B325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FB70A252256DCE750038B325 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = FB70A24E256DCE750038B325 /* Build configuration list for PBXProject "Fanga Dagen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB70A24A256DCE750038B325;
+			productRefGroup = FB70A254256DCE750038B325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB70A252256DCE750038B325 /* Fanga Dagen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB70A251256DCE750038B325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70A263256DCE7B0038B325 /* LaunchScreen.storyboard in Resources */,
+				FBF4470C25708C2E0012CF58 /* Assets.xcassets in Resources */,
+				FB70A25E256DCE750038B325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13060E299F58EE977FB7137D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fanga Dagen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AFB9996FC3913A2F3A489FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanga Dagen/Pods-Fanga Dagen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fanga Dagen/Pods-Fanga Dagen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fanga Dagen/Pods-Fanga Dagen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB70A24F256DCE750038B325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB190F1425742DF900E98457 /* AppBrain.swift in Sources */,
+				FB70A274256F20140038B325 /* DescriptionViewController.swift in Sources */,
+				FB70A25B256DCE750038B325 /* LoginViewController.swift in Sources */,
+				FB70A257256DCE750038B325 /* AppDelegate.swift in Sources */,
+				FB70A259256DCE750038B325 /* SceneDelegate.swift in Sources */,
+				FB190F102573240000E98457 /* ChallengeViewController.swift in Sources */,
+				FBF447102570C4C40012CF58 /* InterestsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB70A25C256DCE750038B325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB70A25D256DCE750038B325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB70A261256DCE7B0038B325 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB70A262256DCE7B0038B325 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB70A265256DCE7B0038B325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB70A266256DCE7B0038B325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB70A268256DCE7B0038B325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C56C853F408D8C5DF1719E0 /* Pods-Fanga Dagen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SY6QB2S828;
+				INFOPLIST_FILE = "Fanga Dagen/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrikkaellenius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB70A269256DCE7B0038B325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFF2A69C6F9333D7919F479 /* Pods-Fanga Dagen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Fanga Dagen/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB70A24E256DCE750038B325 /* Build configuration list for PBXProject "Fanga Dagen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70A265256DCE7B0038B325 /* Debug */,
+				FB70A266256DCE7B0038B325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70A267256DCE7B0038B325 /* Build configuration list for PBXNativeTarget "Fanga Dagen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70A268256DCE7B0038B325 /* Debug */,
+				FB70A269256DCE7B0038B325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB70A24B256DCE750038B325 /* Project object */;
+}

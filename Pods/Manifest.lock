@@ -1,0 +1,24 @@
+PODS:
+  - CLTypingLabel (0.4.0)
+  - ConfettiView (0.1.7)
+  - SCLAlertView (0.8)
+
+DEPENDENCIES:
+  - CLTypingLabel (~> 0.4.0)
+  - ConfettiView
+  - SCLAlertView (~> 0.8)
+
+SPEC REPOS:
+  trunk:
+    - CLTypingLabel
+    - ConfettiView
+    - SCLAlertView
+
+SPEC CHECKSUMS:
+  CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
+  ConfettiView: e70aa9be11d778d2c2778429aad92fa6f5d9c6e7
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+
+PODFILE CHECKSUM: 7448c4f0b9fe9d628509cf2c2d376cf303e78072
+
+COCOAPODS: 1.10.0

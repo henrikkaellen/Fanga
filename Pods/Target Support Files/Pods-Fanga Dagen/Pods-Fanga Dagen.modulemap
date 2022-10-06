@@ -1,0 +1,6 @@
+framework module Pods_Fanga_Dagen {
+  umbrella header "Pods-Fanga Dagen-umbrella.h"
+
+  export *
+  module * { export * }
+}
